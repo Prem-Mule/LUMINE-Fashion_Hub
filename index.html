@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashion hub</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+</head>
+
+<body>
+
+    <!-- header section start -->
+    <header id="header">
+        <a href="#" class="logo">
+            <ul>
+                <li>L</li>
+                <li>U</li>
+                <li>M</li>
+                <li>I</li>
+                <li>N</li>
+                <li>E</li>
+            </ul>
+        </a>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#page3">About</a></li>
+            <li><a href="#page4">Shopping</a></li>
+            <li><a href="#contact">Contact Us </a></li>
+        </ul>
+        <ul class="util">
+            <li><a href="#"><ion-icon name="search-outline"></ion-icon></a></li>
+            <li><a href="login.html"><ion-icon name="person-outline"></ion-icon></a></li>
+            <li><a href="https://forms.gle/xPxhQ9afwYt2H1gc9"> <ion-icon name="send-outline"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="heart-outline"></ion-icon></a></li>
+            <li><a href="notify.html"><ion-icon name="bag-outline"></ion-icon></a></li>
+
+        </ul>
+
+
+    </header>
+    <!-- header section end -->
+
+
+
+
+
+    <div id="cursor"></div>
+
+    <div id="main">
+        <!-- hero banner section start -->
+        <div data-scroll data-scroll-speed="-5" id="banner" class="banner">
+            <!-- left part -->
+            <div class="women">
+                <img src="img/women.jpg" alt="">
+                <a href="#" class="switch-btn" onclick="switchbanner('left');">Women</a>
+                <div class="content">
+                    <h1>ladies fashion</h1>
+                    <p>
+                    <h2>Shop Smarter: Experience 3D Try On Today!</h2> <br>Step into a world of grace and glamour with
+                    our women's fashion collection. From sophisticated
+                    classics to the latest trends, we curate styles that empower. Embrace your uniqueness and
+                    express your femininity with every piece. Shop the latest in women's fashion at LUMINE.</p>
+                    <a href="#page4">shop around <ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </div>
+            <!-- middle part -->
+            <div class="men">
+                <img src="img/men.jpg" alt="">
+                <a href="#" class="switch-btn" onclick="switchbanner('middle');">Men</a>
+                <div class="content">
+                    <h1>mens fashion</h1>
+                    <p>
+                    <h2>Shop Smarter: Experience 3D Try On Today!</h2> <br>Discover style that speaks volumes. From
+                    timeless classics to the latest trends, our men's
+                    fashion collection is curated for the modern gentleman. Elevate your wardrobe with quality
+                    pieces that redefine your everyday look. Find your signature style at LUMINE.</p>
+                    <a href="#page5">shop around <ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </div>
+            <!-- right part -->
+            <div class="special">
+                <img src="img/kids.jpg" alt="">
+                <a href="#" class="switch-btn" onclick="switchbanner('right');">kids</a>
+                <div class="content">
+                    <h1>kids fashion</h1>
+                    <p>
+                    <h2>Shop Smarter: Experience 3D Try On Today!</h2> <br> Bring joy to your little ones with our
+                    delightful kids' fashion collection. From playful patterns
+                    to comfy essentials, we curate styles that make every day an adventure. Explore the cutest
+                    trends for boys and girls. Shop kids' fashion at LUMINE and let their personalities shine!</p>
+                    <a href="#page6">shop around <ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </div>
+            <a href="" class="reset" onclick='resetbanner();'><ion-icon name="power"></ion-icon></a>
+        </div>
+        <!-- hero banner section end -->
+
+        <!-- page2 start video -->
+        <div id="page2">
+
+            <div id="video-container">
+                <div id="play">PLAY</div>
+                <video autoplay loop muted src="vdo/fashionvdo.mp4"></video>
+            </div>
+        </div>
+        <!-- page2 end -->
+
+        <!-- page3 start about with 3d model -->
+        <div id="page3">
+            <div id="texthere">
+                <p>Welcome to Lumine, where fashion meets individuality! Explore curated collections that blend
+                    timeless elegance with the latest trends. Dive into our virtual try-on experience and join a
+                    community that celebrates your unique expression. Elevate your wardrobe with us at Lumine—shop now!
+                </p>
+
+            </div>
+            <div class="home">
+                <!-- <iframe src='https://my.spline.design/interactivespherescopy-2ef699e713a45a4b79483bd39ade3330/'
+                    frameborder='0' width='100%' height='100%'></iframe> -->
+
+
+                <!-- <iframe src='https://my.spline.design/turningredpandafanartcopy-a17e26d72e1ed03cc227284f70b827eb/'
+                    frameborder='0' width='100%' height='100%'></iframe> -->
+                <h1>donot click</h1>
+            </div>
+
+
+
+
+        </div>
+        <!-- page3 end -->
+
+        <!-- scroller Container -->
+        <div id="scrollercontainer">
+            <div id="scroller">
+                <div id="scroller-in">
+                    <h4>Illuminate Your Style</h4>
+                    <h4>Inspire Your Life</h4>
+                    <h4>Elevate Everyday</h4>
+                    <h4>Fashion Unleashed</h4>
+                    <h4>Lumine Unveiled</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- page4 start women cards -->
+        <div id="page4">
+            <h1 style="color: rgba(255, 255, 255, 0.163); position: absolute; align-items: center; justify-content: center; margin-left: 37.5%; font-family: 'CoreCircus' ; margin-top: 30px; font-size: 2.6em; font-weight: 900; 
+            ">womens wear</h1>
+
+            <div id="page" class="site">
+                <div class="products">
+                    <div class="item">
+                        <div class="title">
+                            <div class="brand"></div>
+                            <h2>lumine top wear</h2>
+                        </div>
+                        <div class="image">
+                            <img src="img/womenshirt.png" alt="">
+                        </div>
+                        <div class="meta">
+                            <div class="size">
+                                <input type="radio" name="size" id="45">
+                                <label for="45">XXL</label>
+                                <input type="radio" name="size" id="46">
+                                <label for="46">XL</label>
+                                <input type="radio" name="size" id="47">
+                                <label for="47">L</label>
+                                <input type="radio" name="size" id="48">
+                                <label for="48">M</label>
+                            </div>
+                            <div class="price">
+                                299.89Rs
+                            </div>
+                            <div class="addtocart">
+                                <button>
+                                    <span>add to cart</span>
+                                    <i class="ri-arrow-right-line ri-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="item">
+                        <div class="title">
+                            <div class="brand"></div>
+                            <h2>lumine bottom wear</h2>
+                        </div>
+                        <div class="image">
+                            <img src="img/womenshort.png" alt="">
+                        </div>
+                        <div class="meta">
+                            <div class="size">
+                                <input type="radio" name="size" id="45">
+                                <label for="45">XXL</label>
+                                <input type="radio" name="size" id="46">
+                                <label for="46">XL</label>
+                                <input type="radio" name="size" id="47">
+                                <label for="47">L</label>
+                                <input type="radio" name="size" id="48">
+                                <label for="48">M</label>
+                            </div>
+                            <div class="price">
+                                99.89 Rs
+                            </div>
+                            <div class="addtocart">
+                                <button>
+                                    <span>add to cart</span>
+                                    <i class="ri-arrow-right-line ri-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="item">
+                        <div class="title">
+                            <div class="brand"></div>
+                            <h2>lumine WOMEN ShoeS </h2>
+                        </div>
+                        <div class="image">
+                            <img src="img/womenheels.png" alt="">
+                        </div>
+                        <div class="meta">
+                            <div class="size">
+                                <input type="radio" name="size" id="45">
+                                <label for="45">10</label>
+                                <input type="radio" name="size" id="46">
+                                <label for="46">09</label>
+                                <input type="radio" name="size" id="47">
+                                <label for="47">08</label>
+                                <input type="radio" name="size" id="48">
+                                <label for="48">07</label>
+                            </div>
+                            <div class="price">
+                                998 Rs
+                            </div>
+                            <div class="addtocart">
+                                <button>
+                                    <span>add to cart</span>
+                                    <i class="ri-arrow-right-line ri-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- page4 end -->
+
+        <!-- page5 start men cards -->
+        <div id="page5">
+
+            <div id="pagee" class="sitee">
+
+                <div class="productss">
+                    <div class="itemm">
+                        <div class="titlee">
+                            <div class="brandd"></div>
+                            <h2>LUMINE MEN SHIRT</h2>
+                        </div>
+                        <div class="imagee">
+                            <img src="img/menshirt.png" alt="">
+                        </div>
+                        <div class="metaa">
+                            <div class="sizee">
+                                <input type="radio" name="size" id="455">
+                                <label for="45">XXL</label>
+                                <input type="radio" name="size" id="466">
+                                <label for="46">XL</label>
+                                <input type="radio" name="size" id="477">
+                                <label for="47">L</label>
+                                <input type="radio" name="size" id="488">
+                                <label for="48">M</label>
+                            </div>
+                            <div class="pricee">
+                                899.89 Rs
+                            </div>
+                            <div class="addtocartt">
+                                <button>
+                                    <span>add to cart</span>
+                                    <i class="ri-arrow-right-line ri-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productss">
+                    <div class="itemm">
+                        <div class="titlee">
+                            <div class="brandd"></div>
+                            <h2>LUMINE MEN JEANS</h2>
+                        </div>
+                        <div class="imagee">
+                            <img src="img/menjeans.png" alt="">
+                        </div>
+                        <div class="metaa">
+                            <div class="sizee">
+                                <input type="radio" name="size" id="455">
+                                <label for="45">XXL</label>
+                                <input type="radio" name="size" id="466">
+                                <label for="46">XL</label>
+                                <input type="radio" name="size" id="477">
+                                <label for="47">L</label>
+                                <input type="radio" name="size" id="488">
+                                <label for="48">M</label>
+                            </div>
+                            <div class="pricee">
+                                1299.89 Rs
+                            </div>
+                            <div class="addtocartt">
+                                <button>
+                                    <span>add to cart</span>
+                                    <i class="ri-arrow-right-line ri-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productss">
+                    <div class="itemm">
+                        <div class="titlee">
+                            <div class="brandd"></div>
+                            <h2>LUMINE MEN SHOES</h2>
+                        </div>
+                        <div class="imagee">
+                            <img src="img/menshoe.png" alt="">
+                        </div>
+                        <div class="metaa">
+                            <div class="sizee">
+                                <input type="radio" name="size" id="45">
+                                <label for="45">10</label>
+                                <input type="radio" name="size" id="46">
+                                <label for="46">09</label>
+                                <input type="radio" name="size" id="47">
+                                <label for="47">08</label>
+                                <input type="radio" name="size" id="48">
+                                <label for="48">07</label>
+                            </div>
+                            <div class="pricee">
+                                788 Rs
+                            </div>
+                            <div class="addtocartt">
+                                <button>
+                                    <span>add to cart</span>
+                                    <i class="ri-arrow-right-line ri-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- page5 end -->
+
+        <!-- page6 start kids cards -->
+        <div id="page6">
+
+
+            <div id="pageee" class="siteee">
+                <div class="productsss">
+                    <div class="itemmm">
+                        <div class="titleee">
+                            <div class="branddd"></div>
+                            <h2>LUMINE KIDS SHIRT</h2>
+                        </div>
+                        <div class="imageee">
+                            <img src="img/kidshirt.png" alt="">
+                        </div>
+                        <div class="metaaa">
+                            <div class="sizeee">
+                                <input type="radio" name="size" id="455">
+                                <label for="45">M</label>
+                                <input type="radio" name="size" id="466">
+                                <label for="46">XM</label>
+                                <input type="radio" name="size" id="477">
+                                <label for="47">S</label>
+                                <input type="radio" name="size" id="488">
+                                <label for="48">XS</label>
+                            </div>
+                            <div class="priceee">
+                                1299.89 Rs
+                            </div>
+                            <div class="addtocarttt">
+                                <button>
+                                    <span>add to cart</span>
+                                    <i class="ri-arrow-right-line ri-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productsss">
+                    <div class="itemmm">
+                        <div class="titleee">
+                            <div class="branddd"></div>
+                            <h2>LUMINE KIDS JEANS</h2>
+                        </div>
+                        <div class="imageee">
+                            <img src="img/kidjean.png" alt="">
+                        </div>
+                        <div class="metaaa">
+                            <div class="sizeee">
+                                <input type="radio" name="size" id="455">
+                                <label for="45">M</label>
+                                <input type="radio" name="size" id="466">
+                                <label for="46">XM</label>
+                                <input type="radio" name="size" id="477">
+                                <label for="47">S</label>
+                                <input type="radio" name="size" id="488">
+                                <label for="48">XS</label>
+                            </div>
+                            <div class="priceee">
+                                1295 Rs
+                            </div>
+                            <div class="addtocarttt">
+                                <button>
+                                    <span>add to cart</span>
+                                    <i class="ri-arrow-right-line ri-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productsss">
+                    <div class="itemmm">
+                        <div class="titleee">
+                            <div class="branddd"></div>
+                            <h2>LUMINE KIDS Shoe </h2>
+                        </div>
+                        <div class="imageee">
+                            <img src="img/menshoe.png" alt="">
+                        </div>
+                        <div class="metaaa">
+                            <div class="sizeee">
+                                <input type="radio" name="size" id="45">
+                                <label for="45">8</label>
+                                <input type="radio" name="size" id="46">
+                                <label for="46">7</label>
+                                <input type="radio" name="size" id="47">
+                                <label for="47">6</label>
+                                <input type="radio" name="size" id="48">
+                                <label for="48">5</label>
+                            </div>
+                            <div class="priceee">
+                                2299.89 Rs
+                            </div>
+                            <div class="addtocarttt">
+                                <button>
+                                    <span>add to cart</span>
+                                    <i class="ri-arrow-right-line ri-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- page6 end -->
+
+        <!-- page7 start contact -->
+        <section class="contact" id="contact">
+            <div class="contact-form">
+                <h1>Contact <span>Us</span></h1>
+                <p>We're here to assist you and answer any questions you might have. Feel free to reach out for
+                    collaborations or inquiries. Connect with us via phone: 01646895741 or email: info@luminefashion.com
+                </p>
+                <form action="">
+                    <input type="" placeholder="Your Name" required>
+                    <input type="email" name="email" id="" placeholder="E-mail" required>
+                    <input type="" placeholder="Write a Subject" required>
+                    <textarea name=" id=" cols=" 30" rows="10" placeholder="Your Message" required>
+            </textarea>
+                    <input type="submit" name="" value="Submit" class="btn">
+                </form>
+            </div>
+            <div class="contact-img">
+                <!-- <iframe src='https://my.spline.design/untitled-5c322ed46592dd054835c137818e861c/' frameborder='0'
+                    width='100%' height='100%'></iframe> -->
+            </div>
+        </section>
+        <!-- page7 end -->
+
+
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="java/script.js"></script>
+
+
+
+</body>
+
+</html>
